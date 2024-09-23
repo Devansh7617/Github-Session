@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page in HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9; /* Optional: Add a background color */
+        }
+
+        h1 {
+            color: brown;
+        }
+
+        .headingsContainer h3 {
+            color: red;
+        }
+
+        .headingsContainer p {
+            color: cyan;
+        }
+
+        .mainContainer {
+            border: 2px solid purple;
+            padding: 20px;
+            display: inline-block; /* Center the form */
+            margin-top: 20px;
+        }
+
+        label {
+            display: block; /* Make labels occupy the full width */
+            margin-top: 10px;
+        }
+
+        input {
+            width: 200px;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: green; /* Button color */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Login form using HTML and CSS</h1>
+    <form action="">
+        <div class="headingsContainer">
+            <h3>Sign in</h3>
+            <p>Sign in with your username and password</p>
+        </div>
+
+        <div class="mainContainer">
+            <label for="username">Your username</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <br><br>
+
+            <label for="pswrd">Your password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
